@@ -326,7 +326,7 @@ def done(update, context):
 def main():
 
     pp = PicklePersistence(filename='conversationbot')
-    updater = Updater("1305485403:AAH0hyTGQRntNpO3HshT11QZD3eOiax8RNQ", persistence=pp, use_context=True)
+    updater = Updater("1246139845:AAF92Dlr6lFe2Q4IapD5QhBReQvOr0hpKA0", persistence=pp, use_context=True)
 
     dp = updater.dispatcher
 
