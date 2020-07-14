@@ -317,8 +317,8 @@ def done(update, context):
 
     driver.close()
 
-    update.message.reply_text("اگه میخوای دوباره از بات استفاده کنی start رو بزن")
-    update.message.reply_text("/start")
+    update.message.reply_text("اگه میخوای دوباره از بات استفاده کنی /start رو بزن")
+#     update.message.reply_text("/start")
 
     return ConversationHandler.END
 
