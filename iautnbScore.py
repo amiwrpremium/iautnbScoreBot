@@ -296,7 +296,7 @@ def done(update, context):
     # op = webdriver.ChromeOptions()
     # op.add_argument('headless')
     # driver = webdriver.Chrome(executable_path='/home/amiwr/Code/Python/Nomre/chromedriver', options=op)
-    driver = webdriver.Chrome(executable_path='/home/amiwr/Code/Python/Nomre/chromedriver')
+    driver = webdriver.Chrome()
     driver.get("http://edu1.iau-tnb.ac.ir/logina.aspx")
 
     usernameSite = driver.find_element_by_xpath("/html/body/form/div[3]/div[2]/div/div/div[1]/div[2]/div[2]/div[1]/input")
